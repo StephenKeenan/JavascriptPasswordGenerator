@@ -20,16 +20,16 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
 
-// An array of all characters
+  // An array of all characters
   var allCharacters = [];
 
-// Final array returned as the password
+  // Final array returned as the password
   var password = [];
 
-// Password Generator prompt box
+  // Password Generator prompt box
   var characterCount = prompt("Choose a password length between 8 and 128 characters");
-  
-// Checks that user has entered a numerical value
+
+  // Checks that user has entered a numerical value
   if (isNaN(characterCount)) {
 
     return "The value you entered is not accepted";
@@ -85,7 +85,7 @@ function generatePassword() {
     // Makes sure return's length is same amount chosen by characterCount function
     for (var f = 0; f < characterCount; f++) {
 
-    // Pushes random selections from the allCharacters array into a password array
+      // Pushes random selections from the allCharacters array into a password array
       password.push(allCharacters[Math.floor(Math.random() * allCharacters.length)]);
     }
 
