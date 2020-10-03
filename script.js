@@ -85,7 +85,7 @@ function generatePassword() {
       allCharacters.push(number[m]);
     }
     console.log(allCharacters)
-
+  }
     // Makes sure return's length is same amount chosen by characterCount function
     for (var f = 0; f < characterCount; f++) {
 
@@ -97,4 +97,3 @@ function generatePassword() {
     var final = password.join("");
     return final;
   }
-}
