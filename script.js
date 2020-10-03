@@ -51,6 +51,7 @@ function generatePassword() {
     for (var i = 0; i < upper.length; i++) {
       allCharacters.push(upper[i]);
     }
+    console.log(allCharacters)
   }
 
   // If "cancel" is chosen by the user, browser will not include lower case characters
@@ -61,6 +62,7 @@ function generatePassword() {
     for (var j = 0; j < lower.length; j++) {
       allCharacters.push(lower[j]);
     }
+    console.log(allCharacters)
   }
 
   // If "cancel" is chosen by the user, browser will not include special characters
@@ -71,6 +73,7 @@ function generatePassword() {
     for (var k = 0; k < special.length; k++) {
       allCharacters.push(special[k]);
     }
+    console.log(allCharacters)
   }
 
   // If "cancel" is chosen by the user, browser will not include numbers
@@ -78,9 +81,10 @@ function generatePassword() {
 
   // If "ok" is chosen by the user, browser will include numbers
   if (numbers) {
-    for (var l = 0; l < number.length; l++) {
-      allCharacters.push(number[l]);
+    for (var m = 0; m < number.length; m++) {
+      allCharacters.push(number[m]);
     }
+    console.log(allCharacters)
 
     // Makes sure return's length is same amount chosen by characterCount function
     for (var f = 0; f < characterCount; f++) {
