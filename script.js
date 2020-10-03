@@ -86,14 +86,14 @@ function generatePassword() {
     }
     console.log(allCharacters)
   }
-    // Makes sure return's length is same amount chosen by characterCount function
-    for (var f = 0; f < characterCount; f++) {
+  // Makes sure return's length is same amount chosen by characterCount function
+  for (var f = 0; f < characterCount; f++) {
 
-      // Pushes random selections from the allCharacters array into a password array
-      password.push(allCharacters[Math.floor(Math.random() * allCharacters.length)]);
-    }
-
-    // Final returned password
-    var final = password.join("");
-    return final;
+    // Pushes random selections from the allCharacters array into a password array
+    password.push(allCharacters[Math.floor(Math.random() * allCharacters.length)]);
   }
+
+  // Final returned password
+  var final = password.join("");
+  return final;
+}
