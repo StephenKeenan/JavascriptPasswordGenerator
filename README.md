@@ -9,7 +9,7 @@ Allows users to generate a random password based on criteria they’ve selected.
 [Password Generator] (https://stephenkeenan.github.io/JavascriptPasswordGenerator/)
 
 ## Visual Representation
-![Password Generator] C:\Users\Fight\Documents\UCF\Homework\JavascriptPasswordGenerator\assets\Password Generator.JPG
+![Password Generator] https://github.com/StephenKeenan/JavascriptPasswordGenerator/blob/master/assets/Password%20Generator.JPG
 
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
